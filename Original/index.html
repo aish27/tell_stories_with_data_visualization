@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+
+        <!--Scripts and css files that I created-->
+        <link type="text/css" rel="stylesheet" href="css/main.css"/>
+        <script src="js/chartDrawer.js"></script>
+        <title>Differences among the performance of the baseball players</title>
+    </head>
+    <body>
+        <!--Create html placeholder for the charts-->
+        <div class="row" >
+            <div class="col-md-6">
+                <div id = "placeholder-1_title" class="col-md-12" ></div>
+                <div id = "placeholder-1" class="col-md-12" ></div>
+            </div>
+            <div class="col-md-3">
+                <div id = "placeholder-2_title" class="col-md-12" ></div>
+                <div id = "placeholder-2" class="col-md-12" ></div>
+            </div>
+        </div> 
+
+        <!-- -->
+        <script type="text/javascript">
+            //Load the data from the csv file and draw the charts.
+            d3.csv("../data.csv", draw);
+        </script>
+    </body>
+</html>

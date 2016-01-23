@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Second page with graph of height of players versus the batting average 
+-->
+<html>
+    <head>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+        <!--Scripts and css files that I created-->
+        <script src="js/performance-vs-height.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/page2StyleSheet.css"/>
+        <link type="text/css" rel="stylesheet" href="css/main.css"/>
+        <title>Differences among the performance of the baseball players.</title>
+    </head>
+    <body>
+        <!--Title of the graph-->
+        <div class="row col-md-12">
+             <h1 class="text-center" id="placeholder-1_title"></h1>
+            <h2 class="text-center">(all players)</h2>
+        </div>
+
+        <div class="row col-md-12" >
+            <!--Previous button-->
+            <div class="col-md-2 text-center">
+                <div class="row col-md-12 blank-space"></div>
+                <div class="row col-md-12">
+                    <a href="index.html">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3 button-design prevButton">
+                            <img src="images/next.png" class="icon-size" 
+                                 alt="Next page" id="prev"/>
+                        </div>                 
+                    </a>
+                </div>
+            </div>
+
+            <!--Blank space-->
+            <div class="col-md-1 space-initial"></div>
+
+            <!--Space for the chart.-->
+            <div class="col-md-4 chart-space">
+                <div id = "placeholder-1" class="col-md-12" ></div>
+            </div>
+
+            <!--Blank space-->
+            <div class="col-md-2 space"></div>
+
+            <!--Next button-->
+            <div class="col-md-3 text-center">
+                <div class="row col-md-12 blank-space"></div>
+                <div class="row col-md-12">
+                    <div class="col-md-10 space-end"></div>
+                    <div class="col-md-2">
+                        <a href="page3.html">
+                            <div class="col-md-3 button-design nextButton">
+                                <img src="images/next.png" class="icon-size" 
+                                     alt="Next page"/>
+                            </div>                 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            //Load the data from the csv file and draw the charts.
+            d3.csv("../data.csv", draw);
+        </script>
+
+    </body>
+</html>

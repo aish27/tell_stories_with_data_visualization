@@ -1,0 +1,54 @@
+/* 
+    Author     : Aishwarya
+*/
+
+.blank-space{
+    height:15.5em;
+}
+
+.space{
+    width:21em;
+}
+
+.space-initial{
+    width:2.5em;
+}
+
+.space-end{
+    width:12.5em;
+}
+
+.chart-space{
+    margin-left:-2px;
+}
+
+circle{
+    r:4px;
+}
+
+rect{
+    color:black;
+    background-color: black;
+}
+
+body{
+    background-color: white;
+}
+
+#placeholder-1_title,h6,h1,h2{
+    color:#428BD1;
+}
+
+.blank-space3{
+    height:17.5em;
+}
+
+.blank-space4{
+    height:19.75em;
+}
+
+.divider
+{
+    background-color:#428BD1;
+    height:55px;
+}

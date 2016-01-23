@@ -1,0 +1,53 @@
+/*  
+    Author     : Aishwarya
+*/
+
+#mail-button
+{
+  border: 5px solid white;
+}
+
+.button-design
+{
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    border: 5px solid #428BD1;
+    border-radius: 100px;
+    z-index:1;
+}
+
+.nextButton{
+    margin: 0px 0px 0px 95px; 
+}
+
+.prevButton{
+    margin: 0px 0px 0px -50px; 
+}
+
+#prev
+{
+    transform: rotate(180deg);
+}
+
+.downButton{
+    margin: -1px 0px 0px 0px; 
+}
+
+#down
+{
+    transform: rotate(90deg);
+}
+
+.icon-size
+{
+    height: 32px;
+    width: 32px;
+    margin: 7px 3px 1px -8px;
+    z-index: -1;
+    /* background-color: black; */
+}
+#placeholder-2_title {
+    margin-left:100px; 
+    color:white;
+}

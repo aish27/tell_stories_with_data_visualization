@@ -1,0 +1,23 @@
+/* 
+    Author     : Aishwarya
+*/
+
+body{
+    background-color: #428BD1;
+}
+
+h1,h3{
+    color:white;
+}
+
+.blank-space{
+    height:15em;
+}
+
+.blank-space2{
+    height:24.5em;
+}
+
+.positioningOfSpace{
+    margin-left:32px;
+}
